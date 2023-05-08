@@ -1,0 +1,5 @@
+{
+    "containerEnv": {
+        "JUPYTER_CONFIG_DIR": "/workspaces/datatrail-python/.jupyter"
+    }
+}
