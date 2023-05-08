@@ -1,1 +1,5 @@
-# datatrail-python
+# 🐍 DataTrail in Python
+
+```python
+print("Hello world!")
+```

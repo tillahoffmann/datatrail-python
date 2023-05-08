@@ -1,5 +1,0 @@
-migrated
-# Files to restore workspaces on reload, e.g., window arrangement.
-*.jupyterlab-workspace
-# File browser configuraiton, e.g., to show hidden files.
-browser.jupyterlab-settings

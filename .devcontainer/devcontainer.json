@@ -1,6 +1,6 @@
 {
-    "containerEnv": {
-        "JUPYTER_CONFIG_DIR": "/workspaces/datatrail-python/.jupyter"
-    },
-    "postStartCommand": "pip install --no-cache-dir -r .devcontainer/requirements.txt"
+    "name": "datatrail-python",
+    "build": {
+        "dockerfile": "Dockerfile"
+    }
 }
