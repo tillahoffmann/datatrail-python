@@ -1,0 +1,9 @@
+{
+    "codeCellConfig": {
+        "autoClosingBrackets": true,
+        "rulers": [
+            100
+        ],
+        "showTrailingSpace": true
+    }
+}
