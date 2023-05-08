@@ -1,5 +1,6 @@
 {
     "defaultViewers": {
         "markdown": "Jupytext Notebook"
-    }
+    },
+    "autosaveInterval": 3
 }
