@@ -95,10 +95,45 @@ Bools in Python represent true or false conditions and can be created by typing 
 >>> other_check_condition = False
 
 Lists
------
+^^^^^
+
+Lists are ordered collections of items and can be created by wrapping the items in brackets :code:`[]` separated by commas. Lists can contain objects of different types. They are often used to store data, such as the ages of people in a dataset.
+
+>>> my_list = [1, "red", 17.5, "hello"]
+
+Lists can be *indexed* with brackets to retrieve one or more items. Indexing in Python is "zero-based", i.e., the first element has index 0, the second has index 1, and so on. This may seem counterintuitive at first, but zero-based indexing makes dealing with indices easier in the long run.
+
+>>> my_list[1]
+'red'
+
+You can also use so-called *slicing* to retrieve multiple elements at once. Slicing indexes the list with two numbers: :code:`start:end`. This will get all objects in the list between :code:`start` and :code:`end`; both numbers are optional. Here are a few examples.
+
+Get all objects *after* the second element.
+
+>>> my_list[2:]
+[17.5, 'hello']
+
+Get all numbers *after* the first up to and including the third element.
+
+>>> my_list[1:3]
+['red', 17.5]
 
 Dictionaries
-------------
+^^^^^^^^^^^^
+
+Dictionaries, just like real-world dictionaries, allow you to look things up. They are created by wrapping key-value pairs in braces :code:`{}` separated by commas.
+
+>>> definitions = {
+...     "Python": "a programming language",
+...     "data science": "the study of data to extract insights",
+... }
+
+The object to the left of the colon is called the *key* and the one to the right of the colon the *value*. Together, they form a key-value pair. Like lists, dictionaries can be indexed by one of its keys.
+
+>>> definitions["Python"]
+'a programming language'
+
+Keys must be unique, but the same value may appear multiple times.
 
 .. note::
 
