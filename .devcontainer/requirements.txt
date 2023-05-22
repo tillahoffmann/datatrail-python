@@ -320,6 +320,7 @@ sphinx==6.2.1
     #   -r requirements.in
     #   myst-parser
     #   sphinx-rtd-theme
+    #   sphinxcontrib-jquery
 sphinx-rtd-theme==0.5.1
     # via -r requirements.in
 sphinxcontrib-applehelp==1.0.4
@@ -328,6 +329,8 @@ sphinxcontrib-devhelp==1.0.2
     # via sphinx
 sphinxcontrib-htmlhelp==2.0.1
     # via sphinx
+sphinxcontrib-jquery==4.1
+    # via -r requirements.in
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-qthelp==1.0.3
