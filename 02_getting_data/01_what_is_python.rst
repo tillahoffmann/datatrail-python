@@ -14,7 +14,7 @@ Initially released in 1991, Python has developed into a mature general purpose p
 
 Throughout this course, we will use lines starting with :code:`>>>` to indicate instructions we give to Python (:code:`3 + 7` above) and lines without :code:`>>>` to show results (:code:`10` above).
 
-Python also has the ability to work with data, such as the information in spreadsheets. It can to tell you how many rows are in your column, find the average age of individuals across a data set, and create plots to show you how many males or females are included in your data set. Beyond data summary, you can run statistical analyses, write your own software, and carry out complicated analyses start to finish in Python.
+Python also has the ability to work with data, such as the information in spreadsheets. It can to tell you how many rows are in your column, find the average age of individuals across a dataset, and create plots to show you how many males or females are included in your dataset. Beyond data summary, you can run statistical analyses, write your own software, and carry out complicated analyses start to finish in Python.
 
 Jupyter Lab
 -----------
