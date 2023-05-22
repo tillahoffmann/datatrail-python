@@ -147,4 +147,4 @@ The second line includes quotation marks which indices that :code:`color` is a s
 Summary
 -------
 
-In this lesson, we've discussed that information can be assigned to objects. We've covered the five main types of objects in Python, and we will discuss this in greater detail in later lessons in the course. We've discussed how to create each type of object in Python as well as each type's unique properties. Finally, we discussed how to determine the type of an object in Python using the function :code:`type()`.
+In this lesson, we've discussed that information can be assigned to objects. We've covered the five main types of objects in Python, and we will discuss this in greater detail in later lessons in the course. We've discussed how to create each type of object in Python as well as each type's unique properties. Finally, we discussed how to determine the type of an object in Python using the function :code:`type`.
