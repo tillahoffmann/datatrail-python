@@ -1,0 +1,13 @@
+.browser-window {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.browser-window::before {
+    content: "🔴 🟡 🟢";
+    padding: 2px 5px 3px;
+    font-size: small;
+    display: inline-block;
+}

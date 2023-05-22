@@ -15,7 +15,9 @@ In Python, as with all programming languages, it is important to be able to stor
 
 The :code:`=` operator is called the assignment operator. After you run this code by pressing :kbd:`Shift-Enter`, Python will keep track of the :code:`min_age` variable. You can verify that the variable exists by clicking the :kbd:`🐞` button on the left of the toolbar, and :code:`min_age` will appear in the list of variables.
 
-.. image:: assets/codespaces-variable-inspector.png
+.. container:: browser-window
+
+    .. image:: assets/codespaces-variable-inspector.png
 
 Retrieving objects
 ------------------
@@ -177,7 +179,9 @@ The second line includes quotation marks which indices that :code:`color` is a s
 
 3. Lastly, you can always look at the "Variables" panel in the right panel (make sure you've activated the inspector by clicking :kbd:`🐞`). This approach doesn't require you to run any command, but sometimes it won't have information the other two approaches can tell you.
 
-.. image:: assets/codespaces-variable-inspector.png
+.. container:: browser-window
+
+    .. image:: assets/codespaces-variable-inspector.png
 
 Summary
 -------

@@ -29,15 +29,21 @@ Jupyter Lab in the Cloud
 1. Open the `Codespaces settings <https://github.com/settings/codespaces>`__ on GitHub. If the link doesn't work, make sure you're logged in.
 2. Scroll to the "Editor preferences" section, and select "JupyterLab".
 
-.. image:: assets/codespaces-editor-preferences.png
+.. container:: browser-window
+
+    .. image:: assets/codespaces-editor-preferences.png
 
 3. Launch a new Codespace by clicking `here <https://codespaces.new/tillahoffmann/datatrail-python?quickstart=1>`__ and wait for the Codespace to load; this could take a minute or two. You should see a JupyterLab window as shown below.
 
-.. image:: assets/codespaces-jupyterlab.png
+.. container:: browser-window
+
+    .. image:: assets/codespaces-jupyterlab.png
 
 4. Scroll down to "Console" in the main panel and click on "Python 3 (ipykernel)". This will launch a new console which you can use to give Python instructions, such as the calculator example above.
 
-.. image:: assets/codespaces-calculator-example.png
+.. container:: browser-window
+
+    .. image:: assets/codespaces-calculator-example.png
 
 Learning Python
 ---------------

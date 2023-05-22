@@ -10,5 +10,7 @@ exclude_patterns = [
     "README.md",
     "sandbox",
 ]
+html_css_files = ["datatrail-python.css"]
+html_static_path = ["_static"]
 html_theme = "sphinx_rtd_theme"
 project = "DataTrail"
