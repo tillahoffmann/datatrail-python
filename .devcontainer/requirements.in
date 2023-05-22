@@ -1,6 +1,9 @@
 jupyterlab
 jupytext
 matplotlib
+myst-parser
 numpy
 pandas
+sphinx
+sphinx_rtd_theme
 tqdm
