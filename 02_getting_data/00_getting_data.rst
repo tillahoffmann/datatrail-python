@@ -12,7 +12,11 @@ After completing this section you will be able to:
 - Understand the basics of conducting data science in an ethical manner
 - Get a dataset from an online repository and read it into Python
 
+Contents
+--------
+
 .. toctree::
+    :maxdepth: 2
 
     01_what_is_python
     02_objects
