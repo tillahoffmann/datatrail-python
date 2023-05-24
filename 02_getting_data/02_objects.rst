@@ -141,8 +141,8 @@ Keys must be unique, but the same value may appear multiple times.
 
     Need to include information on categorical data types (such as pandas.Categorical) and pandas data frames, but they are not "builtin" and may deserve a dedicated page in the Python version of the course.
 
-Determining the Type and Shape of an Object
--------------------------------------------
+Determining the Type of an Object
+---------------------------------
 
 We have discussed how to create objects of different types in Python. We haven't yet described how to determine the type of an object once its been stored. To do so, there are three different strategies we'll show you.
 
