@@ -1,12 +1,12 @@
 Objects in Python
 =================
 
-What is an object?
+What is an Object?
 ------------------
 
 An object in Python is something that contains information and, sometimes, performs actions. For example, numbers, strings, and tables are all objects of different *types*.
 
-Storing objects
+Storing Objects
 ---------------
 
 In Python, as with all programming languages, it is important to be able to store objects that we create so that we can use them later. The process of storing an object is called *assignment*, and it entails giving an object a name. For example, the following code creates an object called :code:`min_age` and stores inside that object the value 21.
@@ -19,7 +19,7 @@ The :code:`=` operator is called the assignment operator. After you run this cod
 
     .. image:: assets/codespaces-variable-inspector.png
 
-Retrieving objects
+Retrieving Objects
 ------------------
 
 Now if we ask Python to evaluate :code:`min_age`, it will return the number 21 to us.
@@ -29,7 +29,7 @@ Now if we ask Python to evaluate :code:`min_age`, it will return the number 21 t
 
 Having this minimum age variable stored in an object can be useful later if we have data where we only want to keep individuals who exceed this minimum age.
 
-Object types
+Object Types
 ------------
 
 Every object in Python has a type, and you'll often work with the following types:
