@@ -14,7 +14,7 @@ Initially released in 1991, Python has developed into a mature general purpose p
 
 Throughout this course, we will use lines starting with :code:`>>>` to indicate instructions we give to Python (:code:`3 + 7` above) and lines without :code:`>>>` to show results (:code:`10` above).
 
-Python also has the ability to work with data, such as the information in spreadsheets. It can to tell you how many rows are in your column, find the average age of individuals across a dataset, and create plots to show you how many males or females are included in your dataset. Beyond data summary, you can run statistical analyses, write your own software, and carry out complicated analyses start to finish in Python.
+Python also has the ability to work with data, such as the information in spreadsheets. It can to tell you how many rows are in your column, find the average age of individuals across a dataset, and create plots to show you how many people of different ages are included in your dataset. Beyond data summary, you can run statistical analyses, write your own software, and carry out complicated analyses start to finish in Python.
 
 Jupyter Lab
 -----------
@@ -33,13 +33,17 @@ Jupyter Lab in the Cloud
 
     .. image:: assets/codespaces-editor-preferences.png
 
-3. Launch a new Codespace by clicking `here <https://codespaces.new/tillahoffmann/datatrail-python?quickstart=1>`__ and wait for the Codespace to load; this could take a minute or two. You should see a JupyterLab window as shown below.
+3. Launch a Codespace by clicking `here <https://codespaces.new/tillahoffmann/datatrail-python?quickstart=1>`__. If this is the first time you are using a Codespace, you may see a message that there is no code space to resume as shown below. Simply click the :kbd:`Create new Codespace` button to get started.
+
+.. image:: assets/codespaces-quickstart.png
+
+4. Wait for the Codespace to load; this could take a minute or two. You should see a Jupyter Lab window as shown below.
 
 .. container:: browser-window
 
     .. image:: assets/codespaces-jupyterlab.png
 
-4. Scroll down to "Console" in the main panel and click on "Python 3 (ipykernel)". This will launch a new console which you can use to give Python instructions, such as the calculator example above.
+5. Scroll down to "Console" in the main panel and click on "Python 3 (ipykernel)". This will launch a new console which you can use to give Python instructions, such as the calculator example above.
 
 .. container:: browser-window
 
@@ -48,7 +52,7 @@ Jupyter Lab in the Cloud
 Learning Python
 ---------------
 
-Learning Python can be difficult and frustrating. If you get stuck, you're definitely not alone! The Internet and conversations with others can be very helpful.
+Like many other programming languages, learning Python can be difficult and frustrating. If you get stuck, you're definitely not alone! The Internet and conversations with others can be very helpful.
 
 .. image:: https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png
     :target: https://www.explainxkcd.com/wiki/index.php/979:_Wisdom_of_the_Ancients
