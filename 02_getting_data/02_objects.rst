@@ -103,7 +103,7 @@ Lists are ordered collections of items and can be created by wrapping the items 
 
 >>> my_list = [1, "red", 17.5, "hello"]
 
-Lists can be *indexed* with brackets to retrieve one or more items. Indexing in Python is "zero-based", i.e., the first element has index 0, the second has index 1, and so on. This may seem counterintuitive at first, but zero-based indexing makes dealing with indices easier in the long run.
+Lists can be *indexed* with brackets to retrieve one or more items. Indexing in Python is "zero-based", i.e., the first element has index 0, the second has index 1, and so on. This may seem counterintuitive at first, but zero-based indexing makes dealing with indices easier in the long run. Indexing with :code:`1` thus returns the second element in the list.
 
 >>> my_list[1]
 'red'
@@ -119,6 +119,23 @@ Get all numbers *after* the first up to and including the third element.
 
 >>> my_list[1:3]
 ['red', 17.5]
+
+Slicing is *inclusive* on the left. That means the first element of a slice is the same as if you had indexed with :code:`start`.
+
+>>> my_list[2:]
+[17.5, 'hello']
+>>> my_list[2]
+17.5
+
+However, slicing is *exclusive* on the right. That means the last element of a slice *is not* the same as if you had indexed with :code:`end`.
+
+>>> my_list[:2]
+[1, 'red']
+>>> my_list[2]
+17.5
+
+This can be confusing but has its benefits. For example, it makes it easy to calculate how many elements the result has. The sliced list :code:`my_list[start:end]` has :code:`end - start` elements.
+
 
 Dictionaries
 ^^^^^^^^^^^^
